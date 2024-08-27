@@ -1,0 +1,25 @@
+
+.container, .navbar, .carousel, .list-group, footer {
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 576px) {
+    .list-group-item, footer .col-sm {
+        text-align: center;
+    }
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.footer-title {
+    font-weight: bold;
+}
+

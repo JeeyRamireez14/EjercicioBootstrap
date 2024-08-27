@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web con Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carrusel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="descarga.png" class="d-block w-100" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="este-es-el-origen-de-las-diferentes-razas-de-gatos.jpg" class="d-block w-100" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="nationalgeographic_1468962.jpg" class="d-block w-100" alt="Imagen 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Cards -->
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="silueta.jpg" class="card-img-top" alt="Card image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card con imagen</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eaque tenetur eum officia 
+                            necessitatibus dolores nihil, illo odit dolore incidunt, iste nisi. Enim nihil in ipsa minus fuga quibusdam expedita?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="silueta.jpg" class="card-img-top" alt="Card image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card con imagen</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, molestias qui. Fuga eligendi explicabo officiis nostrum neque 
+                            dignissimos et doloribus sit, deleniti porro nobis nulla totam molestiae, nihil voluptate itaque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="silueta.jpg" class="card-img-top" alt="Card image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card con imagen</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ducimus temporibus cum, amet eaque vel tenetur excepturi 
+                            voluptatum debitis quibusdam ipsa ad culpa sit dolore, totam modi pariatur voluptates cupiditate.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="silueta.jpg" class="card-img-top" alt="Card image">
+                    <div class="card-body">
+                        <h5 class="card-title">Cardcon imagen</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nam iure, inventore, vitae tenetur repellendus delectus aut reprehenderit 
+                            saepe voluptatibus laboriosam repellat repudiandae incidunt debitis, laudantium earum sequi esse nesciunt?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Lista-->
+<div class="container mt-5">
+    <ul class="list-group list-group-horizontal">
+        <li class="list-group-item col-6">Lista 1<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam repellendus perferendis commodi nobis eveniet beatae, amet placeat laudantium labore nemo deserunt reiciendis maxime molestias aperiam totam blanditiis accusantium vel molestiae.</p></li>
+        <li class="list-group-item col-6">Lista 2<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, dolorem! Deserunt praesentium odio vero beatae ea natus esse sed, corrupti dignissimos, voluptates provident ad omnis laboriosam? Odit itaque modi ut!</p></li>
+    </ul>
+</div>
+
+<!--Footer-->
+<footer class="container-fluid border mt-5">
+    <div class="row">
+        <div class="col-sm">
+            <h5 class="footer-title">Title 1</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore possimus exercitationem perferendis dolorem quam inventore dolore, 
+                commodi hic nihil neque repudiandae velit sint recusandae necessitatibus doloribus cum esse repellendus?
+            </p>
+        </div>
+        <div class="col-sm">
+            <h5 class="footer-title">Title 2</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore possimus exercitationem perferendis dolorem quam inventore dolore, 
+                commodi hic nihil neque repudiandae velit sint recusandae necessitatibus doloribus cum esse repellendus?
+            </p>
+        </div>
+        <div class="col-sm">
+            <h5 class="footer-title">Title 3</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore possimus exercitationem perferendis dolorem quam inventore dolore, 
+                commodi hic nihil neque repudiandae velit sint recusandae necessitatibus doloribus cum esse repellendus?
+            </p>
+        </div>
+    </div>
+</footer>
+
+    <!-- Agregar bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+</html>
+
+
